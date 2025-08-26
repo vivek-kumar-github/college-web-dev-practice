@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    background: orange;
+}
+#id{
+    color: rgb(3, 41, 74);
+}
+.class{
+    color: rgb(224, 133, 13);
+}
+h1{
+    font-weight: 100;
+}
