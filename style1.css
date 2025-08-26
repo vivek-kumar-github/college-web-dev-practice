@@ -2,4 +2,6 @@ h1{
     text-transform: uppercase;
     letter-spacing: 8px;
     font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,0 +1,102 @@
+ul li a {
+    text-decoration: none;
+    /* Removes the underline from links */
+    color: white;
+    /* Sets text color to white */
+    background-color: #333;
+    /* Sets a dark background color */
+    padding: 10px 20px;
+    /* Adds space inside the link's border */
+    border-radius: 5px;
+    /* Rounds the corners */
+    font-family: Arial, sans-serif;
+    /* Sets the font */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover */
+}
+
+/* Change background color when hovering over the link */
+ul li a:hover {
+    background-color: dodgerblue;
+}
+
+section {
+    background-color: #f4f4f9;
+    /* A light grey background for the section */
+    padding: 40px 20px;
+    /* Adds space inside the section (top/bottom, left/right) */
+    text-align: center;
+    /* Centers the text (the h1) inside the section */
+    margin-bottom: 20px;
+    /* Adds some space below the section */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    /* A classic, elegant font */
+    color: #2c3e50;
+    /* A dark, slate-blue color for the text */
+    font-size: 2.5em;
+    /* Makes the font size larger (em is relative to the base font size) */
+    margin: 0;
+    /* Removes the browser's default margin on the heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    /* Adds a very subtle shadow for depth */
+}
+
+section p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* A clean, modern font */
+    font-size: 1.1em;
+    /* Slightly larger font for readability */
+    line-height: 1.6;
+    /* Increases vertical space between lines, a key for readability */
+    color: #444;
+    /* A dark grey color, softer than pure black */
+    max-width: 700px;
+    /* Limits the width of the paragraph for a better reading experience */
+    margin: 0 auto;
+    /* Centers the paragraph on the page */
+    text-align: left;
+    /* Aligns the text to the left (overriding the section's center alignment) */
+}
+
+/* --- Navigation Bar Container --- */
+nav {
+    display: flex;
+    /* Activates Flexbox layout */
+    justify-content: space-between;
+    /* Pushes children to opposite ends (logo left, links right) */
+    align-items: center;
+    /* Vertically centers items in the navbar */
+    background-color: #2c3e50;
+    /* A dark background for the bar */
+    padding: 10px 20px;
+    /* Adds some spacing inside the bar (top/bottom, left/right) */
+}
+
+/* --- Navigation Links List --- */
+nav ul {
+    list-style-type: none;
+    /* Removes the default bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Makes list items (li) align in a row */
+    gap: 20px;
+    /* Adds space between the "login" and "register" buttons */
+}
+
+/* --- (Optional) Keep your existing styles for the links --- */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: dodgerblue;
+}
